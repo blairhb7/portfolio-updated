@@ -2,3 +2,56 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+/* Website Videos and layouts */
+
+.LandingVid {
+    object-fit: cover;
+    height: 100%;
+    object-position: center;
+    width: 50%;
+    z-index: -20;
+    width: 100%;
+  }
+
+  
+
+
+  
+.text-stroke {
+    color: hsla(0,0%,95%,.01);
+    -webkit-text-stroke: 7px #000000;
+  }
+  
+  .text-title {
+    color: hsla(0, 0%, 95%, 0);
+    -webkit-text-stroke: 1px #ffffff;
+  }
+  
+  .text-Headline {
+    color: hsla(0, 0%, 95%, 0);
+    -webkit-text-stroke: 7px #ffffff;
+  }
+  
+  .text-strokeblack:hover {
+    color: hsla(0,0%,95%,.01);
+    -webkit-text-stroke: 2px #ffffff;
+  }
+
+
+
+ /* #tri-one {
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+  }*/
+
+
+  #sectOne p {
+     opacity: 0;
+  }
+
+  #sectOne:hover p {
+    opacity: 100;
+    transition-duration: 1000ms;
+    
+  }
