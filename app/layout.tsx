@@ -16,6 +16,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo+Black&family=Monoton&display=swap" rel="stylesheet"/>
+        <title>Blair Chappell Portfolio</title>
+        <link rel="icon" href="/waveicon.png" />
+      </head>
       <body >{children}</body>
     </html>
   )
