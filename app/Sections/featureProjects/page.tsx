@@ -6,6 +6,7 @@ import { url } from 'inspector'
 import { title } from 'process'
 import Link from 'next/link'
 import Image from 'next/image'
+import Nav from '@/app/Components/nav'
 
 
 
@@ -47,6 +48,7 @@ useEffect(() => {
 
   return (
     <>
+    <Nav/>
     <main  className=" relative h-full ">
       
     

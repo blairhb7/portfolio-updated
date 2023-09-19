@@ -16,7 +16,10 @@
   }
 
   
-
+#logo {
+  
+  -webkit-text-stroke: 1px #383838;
+}
 
   
 .text-stroke {
