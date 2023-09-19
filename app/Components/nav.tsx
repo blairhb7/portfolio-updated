@@ -19,8 +19,8 @@ const nav = () => {
                     <div className="bar"></div>
                     <div className="bar"></div>
                 </label>
-                <nav id='nav'>
-                    <ul className=' z-30 flex flex-col gap-4 text-xl justify-center items-center font-light text-white h-screen'>
+                <nav id='navmenu'>
+                    <ul className=' flex flex-col gap-4 text-xl justify-center items-center font-light text-white h-screen'>
                     <li className='hover:-translate-x-3 duration-500'><Link className='hover:underline underline-offset-8  duration-500 ' href={'/'}>Home</Link></li>
                     <li className='hover:-translate-x-3 duration-500'><Link className='hover:underline underline-offset-8 hover:translate-x-3' href={'/Sections/featureProjects'}>Featured Project</Link></li>
                     <li className='hover:-translate-x-3 duration-500'><Link className='hover:underline underline-offset-8 hover:translate-x-3' href={'/Sections/experience-about'}>Experience</Link></li>
