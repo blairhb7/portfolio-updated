@@ -52,8 +52,8 @@ const ContactForm = () => {
   })
 
   return (
-    <form  onSubmit={sendEmail} ref={form}  method='POST' className=' border-gray-200 border-2 py-2 px-3 2xl:mx-[5%] justify-center gap-3 '  >
-        <div className="flex justify-center gap-5">
+    <form  onSubmit={sendEmail} ref={form}  method='POST' className=' border-gray-200 bg-gray-300 border-2 py-2 px-3 2xl:mx-[5%] justify-center gap-3 '  >
+        <div className="flex justify-center gap-5 ">
             <div className=' w-full'>
                 <label className='text-white uppercase p-2 text-xl font-headline' htmlFor="name">{formik.touched.email && formik.errors.name ? formik.errors.name : "Name"}</label>
                 <input className='w-full px-3'
@@ -92,7 +92,7 @@ const ContactForm = () => {
             onChange={(e)=>{setMessage(e.target.value)}}
             required
             ></textarea>
-            <input type="submit" value="Send"  className=' text-white w-full uppercase py-6 bg-[#91909046] hover:bg-gray-200 hover:text-black duration-500 text-4xl font-headline' />
+            <input type="submit" value="Send"  className=' text-gray-300 border border-gray-300 w-full cursor-pointer uppercase py-6 bg-white hover:bg-gray-200 hover:text-white duration-500 text-4xl font-headline' />
         </div>
         
       </div>

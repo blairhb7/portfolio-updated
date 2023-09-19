@@ -3,37 +3,34 @@ import Link from 'next/link'
 import React from 'react'
 import ContactForm from '@/app/Components/ContactForm'
 import Image from 'next/image'
+import Nav from '@/app/Components/nav'
 
 
 
 const page = () => {
+
+
+    //bg-[url('/background-img.svg')]
   return (
     <>
     
     <main  className="grid grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 ">
-    <div className=" xl:hidden  w-full bg-black">
-          <ul className=" flex p-2 fixed z-50 bg-black bg-opacity-50 font-headline w-full gap-4 text-xs sm:text-sm md:text-base">
-            <Link href={'/'}><li className=" text-gray-300">Experience</li></Link>
-            <Link href={'/ProjectPage'}><li className=" text-gray-300">Featured Projects</li></Link>
-            <Link href={'/Archive'}><li className=" text-gray-300">Project Archive</li></Link>
-            <Link href={'/Contact'}><li className=" text-gray-300">Contact</li></Link>
-          </ul>
-      </div>
+   <Nav/>
         <section className=" bg-cover relative  h-full overflow-hidden ">
             <div className="absolute  flex justify-center items-center w-full h-full container-3d   ">
-                <ul  className=" hidden lg:flex flex-col lg:gap-44 gap-2 opacity-50  z-50 w-full lg:pl-[15%] xl:px-[10%] 2xl:px-[35%]">
+                <ul  className=" hidden lg:flex flex-col lg:gap-44 gap-2 opacity-50  z-50 w-full lg:pl-[5%] xl:px-[10%] 2xl:px-[25%]">
                     <li className="z-50 "><div className="box-3d ease-in-out   duration-200"><h1 className=" text-4xl lg:text-[12em] font-sans  text-white font-extrabold">Say</h1></div></li>
                     <li className="z-50 "><div className="box-3d ease-in-out  duration-200"><h1 className=" text-4xl lg:text-[12em] font-sans  text-white  font-extrabold">Hello</h1></div></li>
                 </ul>
             </div>
             <video autoPlay loop muted playsInline className="LandingVid" src="/phone.mp4"></video>
         </section>
-        <section className="bg-[url('/background-img.svg')]  lg:overflow-y-scroll scrollbar-hide overflow-hidden">
+        <section className="   overflow-hidden">
             <div className="">
                 <ul  className=" flex  gap-10 lg:gap-24  text-[#000000ac] uppercase justify-center  w-full px-6 py-20 ">
-                    <li className=""><div className="hover:text-blue-500 duration-200  font-serif ease-in-out "><h1 className=" text-xl xl:text-[2em] lg:leading-10  duration-100 font-extrabold">Call <br/>Me</h1></div></li>
-                    <li className=""><div className="hover:text-blue-500 duration-200  font-serif ease-in-out "><h1 className=" text-xl xl:text-[2em] lg:leading-10    duration-100 font-extrabold">Email<br/> Me</h1></div></li>
-                    <li className=""><div className="hover:text-blue-500 duration-200 font-serif ease-in-out "><h1 className=" text-xl xl:text-[2em]  lg:leading-10   duration-100 font-extrabold">Message<br/> Me</h1></div></li>
+                    <li className=""><div className=" duration-200  font-serif ease-in-out "><h1 className=" text-xl xl:text-[2em] lg:leading-10  duration-100 font-extrabold">Call <br/>Me</h1></div></li>
+                    <li className=""><div className=" duration-200  font-serif ease-in-out "><h1 className=" text-xl xl:text-[2em] lg:leading-10    duration-100 font-extrabold">Email<br/> Me</h1></div></li>
+                    <li className=""><div className=" duration-200 font-serif ease-in-out "><h1 className=" text-xl xl:text-[2em]  lg:leading-10   duration-100 font-extrabold">Message<br/> Me</h1></div></li>
                 </ul>
             </div>
             <div  className="flex flex-col justify-center  bg-[#ffffff]    ">
@@ -49,12 +46,12 @@ const page = () => {
                     <div  className="">
                         <ContactForm/>
                     </div>
-                    <div className=" h-[270px] xl:h-[300px] 2xl:px-[25%] px-3 w-full flex justify-center items-center gap-2 ">
+                    <div className=" h-[270px] xl:h-[300px] 2xl:px-[5%] px-3 w-full flex justify-center items-center gap-2 ">
                         <Link href={'tel:17073154173'} ><h2 className=" text-black flex  items-center text-sm lg:text-base font-light h-20 pr-6 border-r-2 lg:border-r-2 border-gray-200 ">+7073154173</h2></Link>
                         <Link href={'mailto:blairhb7@yahoo.com'} ><h2 className=" text-black flex  items-center uppercase text-sm lg:text-base font-light h-20">Blairhb7@gmail.com</h2></Link>
-                        <div className="w-full flex gap-3 justify-center py-1 ">
-                            <Link href={`https://github.com/blairhb7`}><Image width={40} height={40} src={"github-square.svg"} alt={"github"} className={" lg:w-10 lg:h-10"} /></Link>
-                            <Link href={`https://www.linkedin.com/in/blair-chappell-23818420a/`}><Image width={40} height={40} src={"Linkedin-square.svg"} alt={"linkedin"}   className={" lg:w-10 lg:h-10" }/></Link>
+                        <div className=" flex gap-3 justify-center py-1 ">
+                            <Link href={`https://github.com/blairhb7`}><img className='h-10 w-10' src={"/github-circle.png"} alt={"github"}  /></Link>
+                            <Link href={`https://www.linkedin.com/in/blair-chappell-23818420a/`}><img  className='h-10 w-10' src={"/Linkedin-circle (1).png"} alt={"linkedin"}  /></Link>
                         </div>
                     </div>
                 </div>

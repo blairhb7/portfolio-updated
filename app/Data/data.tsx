@@ -6,13 +6,13 @@ const projectArchive = [
         project: "Space Tourism",
         color: '#888',
         backgroundcolor: [{
-            html: '#f57842',
-            css: '#4248f5',
-            React: '#61dbfb',
+            html: '#000',
+            css: '#000',
+            React: '#000',
             NextJS: '#000',
-            TypeScript: '#007acc',
-            JavaScipt: '#f0db4f',
-            Sanity: '#f55142'
+            TypeScript: '#000',
+            JavaScipt: '#000',
+            Sanity: '#000'
         }],
         techstack: [
             [ 'React'],
@@ -31,13 +31,13 @@ const projectArchive = [
         project: "SunFish",
         color: '#EF1019',
         backgroundcolor: [{
-            html: '#f57842',
-            css: '#4248f5',
-            React: '#61dbfb',
-            NextJS: '#000',
-            TypeScript: '#007acc',
-            JavaScipt: '#f0db4f',
-            Sanity: '#f55142'
+            html: '#222',
+            css: '#222',
+            React: '#222',
+            NextJS: '#222',
+            TypeScript: '#222',
+            JavaScipt: '#222',
+            Sanity: '#222'
         }],
         techstack: [
             [ 'React'],
@@ -187,8 +187,7 @@ export default projectArchive
     }
     ],
     
-       
-    
+  
  }
 
 
