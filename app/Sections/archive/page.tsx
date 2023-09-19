@@ -28,7 +28,7 @@ const Archive = () => {
             const {year, project, techstack, Link, id, color } = Projects
             return (
               <div key={project}>
-              <div   className=" grid grid-cols-3 lg:grid-cols-4 px-2 lg:px-2  py-6 gap-2 lg:gap-2 text-[#000000ac]   hover:text-white hover:bg-[#000000c4] duration-500 hover:rounded-lg">
+              <div   className=" grid grid-cols-3 lg:grid-cols-4 px-2 lg:px-2  py-6 gap-2 lg:gap-2 text-[#000000ac]   hover:text-white hover:bg-[#4c4c4c61] duration-500 hover:rounded-lg">
                 <h2  className=" text-sm lg:text-lg font-medium">{year}</h2>
                 <h2   className={` text-xs  lg:text-lg font-medium uppercase  `}>{project}</h2>
                 <ul  className="  hidden sm:visible lg:grid grid-cols-1 xl:inline-flex  w-[70%] xl:w-full flex-wrap items-center text-[.7em]  px-8 2xl:text-sm gap-3">
