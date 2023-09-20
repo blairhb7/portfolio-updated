@@ -6,13 +6,13 @@ import Nav from '@/app/Components/nav'
 const LandingPage = () => {
 
 
-//bg-[url('/background-img.svg')]
+//
   
   return (
     <>
     <Nav/>
-    <main className=" px-5 pt-32 md:p-10  h-screen grid grid-cols-1 lg:grid-cols-4 text-[#222]  bg-cover ">
-        <section id='sectOne' className="   hover:bg-white  hover:text-black duration-700 cursor-pointer">
+    <main className=" px-5 pt-32 md:p-10  h-screen grid grid-cols-1 lg:grid-cols-4 text-[#222] bg-[url('/background-img.svg')] bg-cover ">
+        <section id='' className=" sectOne  hover:bg-white  hover:text-black duration-700 cursor-pointer">
         <Link href={'/Sections/featureProjects'}> 
             <div className=" flex flex-col justify-center px-5 items-end h-full">
               <h2 className=" lg:text-2xl uppercase font-extralight opacity-100 duration-500 hover:translate-x-3">Feature Projects</h2>
