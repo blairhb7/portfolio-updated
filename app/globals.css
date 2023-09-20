@@ -172,8 +172,8 @@
     }
   }
   
-  #toggle:checked {
-    &~nav {
+  /*#toggle:checked {
+    &~.menu {
       opacity:1;
       visibility:visible;
   
@@ -212,4 +212,41 @@
         }
       }
     }
+  }*/
+
+  #toggle:checked ~ .menu {
+    
+      opacity:1;
+      visibility:visible;
+    
   }
+    #toggle:checked ul {
+        top:70px;
+    }
+
+        #toggle:checked li {
+          transform:translateY(0px);
+          opacity:1;
+
+        }
+  
+          
+     
+    
+        label.toggle-btn .bar {
+        background-color:rgb(255, 255, 255);
+      }
+  
+      #toggle:checked ~ .toggle-btn .bar:nth-child(2) {
+          transform:translateX(50px);
+          opacity:0;
+        }
+  
+        #toggle:checked ~ .toggle-btn .bar:nth-child(1) {
+          transform:translateY(10px) rotate(45deg);
+        }
+  
+        #toggle:checked ~ .toggle-btn .bar:nth-child(3) {
+          transform:translateY(-8px) rotate(-45deg);
+        }
+  

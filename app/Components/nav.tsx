@@ -2,6 +2,10 @@ import Link from 'next/link'
 import React from 'react'
 
 const nav = () => {
+
+    
+
+
   return (
     <>
     <main className=" w-screen bg-transparent fixed z-50">
