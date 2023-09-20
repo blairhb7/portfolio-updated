@@ -10,7 +10,7 @@ const page = () => {
   return (
     <>
     <Nav/>
-    <main className="grid grid-flow-col-1 lg:grid-cols-2 pt-[6%] h-screen bg-[url('/background-img.svg')] ">
+    <main className="grid grid-flow-col-1 lg:grid-cols-2 pt-[32%] h-full md:h-screen bg-cover bg-[url('/background-img.svg')] ">
     
         <section className="h-full">
         <div  className="   text-[#000000ac] flex-col  px-6 lg:px-2 lg:m-10 p-2 z-0  transition duration-700 motion-reduce:transition-none ">

@@ -14,7 +14,7 @@ const nav = () => {
             <div className="">
             <header>
                 <input type='checkbox' id='toggle' className='hidden' />
-                <label className='toggle-btn toggle-btn__cross' htmlFor='toggle'>
+                <label className='toggle-btn toggle-btn__cross z-40' htmlFor='toggle'>
                     <div className="bar"></div>
                     <div className="bar"></div>
                     <div className="bar"></div>

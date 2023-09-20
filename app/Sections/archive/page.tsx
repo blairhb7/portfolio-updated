@@ -16,13 +16,13 @@ const Archive = () => {
   return (
     <>
     
-    <main  className=" flex flex-col h-full ">
+    <main  className=" flex flex-col h-full  xl:w-screen ">
     <Nav/>
       <section className=" py-40 px-10">
         <h1 className=" text-3xl md:text-7xl font-light uppercase Name  lg:text-[#000000ac] px-5 ">Project Archive</h1>
-        <h4 className=" text-xs text-[#000000ac]  uppercase lg:hidden lg:text-[#000000ac]  ">For best experience view on a Desktop</h4>
+        <h4 className=" text-xs text-[#000000ac]  uppercase lg:hidden lg:text-[#000000ac] px-5  ">For best experience view on a Desktop</h4>
       </section>
-      <section className="  px-[4%]   md:w-[1200px]">
+      <section className="  px-[4%] ">
        
         {
           archive.map((Projects: { year: any; project: any; techstack: any; Link: any; id: any; color: any }) => {
