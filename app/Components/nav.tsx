@@ -19,13 +19,13 @@ const nav = () => {
                     <div className="bar"></div>
                     <div className="bar"></div>
                 </label>
-                <nav id='navmenu' className=''>
-                    <ul className=' flex flex-col gap-4 text-sm md:text-xl justify-center items-center font-light text-white h-screen'>
-                    <li className='hover:-translate-x-3 duration-500'><Link className='hover:underline underline-offset-8  duration-500 ' href={'/'}>Home</Link></li>
-                    <li className='hover:-translate-x-3 duration-500'><Link className='hover:underline underline-offset-8 hover:translate-x-3' href={'/Sections/featureProjects'}>Featured Project</Link></li>
-                    <li className='hover:-translate-x-3 duration-500'><Link className='hover:underline underline-offset-8 hover:translate-x-3' href={'/Sections/experience-about'}>Experience</Link></li>
-                    <li className='hover:-translate-x-3 duration-500'><Link className='hover:underline underline-offset-8 hover:translate-x-3' href={'/Sections/archive'}>Project Archive</Link></li>
-                    <li className='hover:-translate-x-3 duration-500'><Link className='hover:underline underline-offset-8 hover:translate-x-3' href={'/Sections/contact'}>Contact</Link></li>
+                <nav id='nav' className=' menu'>
+                    <ul className=' z-50 list flex flex-col gap-2 text-sm md:text-xl  items-center font-light text-white h-screen'>
+                    <li className=' hover:-translate-x-3 duration-500'><Link className='Link hover:underline underline-offset-8  duration-500 ' href={'/'}>Home</Link></li>
+                    <li className='hover:-translate-x-3 duration-500'><Link className='Link  hover:underline underline-offset-8 hover:translate-x-3' href={'/Sections/featureProjects'}>Featured Project</Link></li>
+                    <li className='hover:-translate-x-3 duration-500'><Link className='Link  hover:underline underline-offset-8 hover:translate-x-3' href={'/Sections/experience-about'}>Experience</Link></li>
+                    <li className='hover:-translate-x-3 duration-500'><Link className='Link  hover:underline underline-offset-8 hover:translate-x-3' href={'/Sections/archive'}>Project Archive</Link></li>
+                    <li className='hover:-translate-x-3 duration-500'><Link className='Link  hover:underline underline-offset-8 hover:translate-x-3' href={'/Sections/contact'}>Contact</Link></li>
                     <div className=" flex gap-3 z-50 justify-center py-1 ">
                             <Link href={`https://github.com/blairhb7`}><img className='h-10 w-10' src={"/G.png"} alt={"github"}  /></Link>
                             <Link href={`https://www.linkedin.com/in/blair-chappell-23818420a/`}><img  className='h-10 w-10' src={"/L.png"} alt={"linkedin"}  /></Link>
