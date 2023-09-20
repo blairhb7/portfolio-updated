@@ -13,7 +13,7 @@ const nav = () => {
            <Link href={'/'}> 
                  <div className="flex flex-col">
                     <h1 id='logo' className=" hidden md:block text-[.5em] md:text-sm px-1 font-medium leading-tight text-white shadow-black outline">Blair Chappell <br/> <span className=' text-xslg:text-base'>frontend developer</span></h1>
-                    <img src={'/b-2.png'} alt="" className=" md:hidden w-6" />
+                    <img src={'/b-5.png'} alt="" className=" md:hidden w-6" />
                  </div>
             </Link>
             <div className="">
