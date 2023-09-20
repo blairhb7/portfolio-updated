@@ -75,7 +75,7 @@ useEffect(() => {
               </div>
               
               <div  style={{ opacity: slideIndex === index ? 1 : 0, visibility: slideIndex === index ? 'visible' : 'hidden'}} className=" h-full grid grid-cols-1 justify-between transition-all ease-linear duration-1000   ">
-              <div className=" flex  items-end gap-2 justify-end absolute opacity-90 hover:opacity-90  z-50 px-14 py-4  ">
+              <div className=" flex lg:flex-col  items-end gap-2 justify-end absolute opacity-90 hover:opacity-90  z-40  py-4 px-3 ">
                   <div onClick={next} className=" cursor-pointer    duration-1000 flex justify-center items-center">
                     <Image width={500} height={500}  src={"/down.png" } alt={""} className=" w-8 h-8" />
                     
@@ -84,11 +84,11 @@ useEffect(() => {
                     <Image width={500} height={500}    src="/up.png" alt="" className=" w-8 h-8" />
                   </div>
               </div>
-                <div  className="flex-col flex  z-40 bg-black text-[#fff] h-screen lg:pt-10 lg:pb-64 2xl:pt-20 pt-10 overflow-y-scroll scrollbar-hide   px-6 lg:px-8">
+                <div  className="flex-col flex  z-30 bg-black text-[#fff] h-screen lg:pt-5 lg:pb-64 2xl:pt-10 pt-10 overflow-y-scroll scrollbar-hide   px-8 lg:pl-16">
                     <h1  style={{color}} className=" text-4xl xl:text-8xl py-5 font-serif uppercase font-semibold">{title}</h1>
-                    <p  className=" text-sm lg:text-base  lg:font-normal lg:w-[90%] 2xl:w-[65%] py-2">{firstline}</p>
-                    <p  className=" text-sm lg:text-base  lg:font-normal  lg:w-[90%] 2xl:w-[65%] py-2">{secondline}</p>
-                    <p  className=" text-sm lg:text-base  lg:font-normal  lg:w-[90%] 2xl:w-[65%] py-2">{thirdline}</p>
+                    <p  className=" text-sm lg:text-base  lg:font-normal lg:w-[97%] 2xl:w-[65%] py-2">{firstline}</p>
+                    <p  className=" text-sm lg:text-base  lg:font-normal  lg:w-[97%] 2xl:w-[65%] py-2">{secondline}</p>
+                    <p  className=" text-sm lg:text-base  lg:font-normal  lg:w-[97%] 2xl:w-[65%] py-2">{thirdline}</p>
                     <hr  className="w-[85%] my-5" />
                     <a href={Linksite} style={{color}} className=" z-50 cursor-pointer"><h2 className=" cursor-pointer text-2xl py-5 lg:py-8 font-semibold duration-500 hover:underline underline-offset-8 hover:translate-x-3">Visit Site</h2></a>
                     <a  href={Linksite} className=' cursor-pointer z-50'><Image width={500} height={500}  src={pic} alt="" className="  cursor-pointer w-[74%] lg:max-w-[75%] 2xl:w-[55%] overflow-hidden " /></a>
