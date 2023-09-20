@@ -8,7 +8,7 @@ const nav = () => {
         <nav className=' flex justify-between py-4 px-8 uppercase'>
            <Link href={'/'}> 
                  <div className="flex flex-col">
-                    <h1 id='logo' className=" text-xs lg:text-md px-1 font-medium leading-tight text-white shadow-black outline">Blair Chappell <br/> <span className=' text-xslg:text-base'>frontend developer</span></h1>
+                    <h1 id='logo' className=" text-[.3em] lg:text-md px-1 font-medium leading-tight text-white shadow-black outline">Blair Chappell <br/> <span className=' text-xslg:text-base'>frontend developer</span></h1>
                  </div>
             </Link>
             <div className="">
@@ -19,8 +19,8 @@ const nav = () => {
                     <div className="bar"></div>
                     <div className="bar"></div>
                 </label>
-                <nav id='navmenu'>
-                    <ul className=' flex flex-col gap-4 text-xl justify-center items-center font-light text-white h-screen'>
+                <nav id='navmenu' className=' z-10'>
+                    <ul className=' flex flex-col gap-4 text-sm md:text-xl justify-center items-center font-light text-white h-screen'>
                     <li className='hover:-translate-x-3 duration-500'><Link className='hover:underline underline-offset-8  duration-500 ' href={'/'}>Home</Link></li>
                     <li className='hover:-translate-x-3 duration-500'><Link className='hover:underline underline-offset-8 hover:translate-x-3' href={'/Sections/featureProjects'}>Featured Project</Link></li>
                     <li className='hover:-translate-x-3 duration-500'><Link className='hover:underline underline-offset-8 hover:translate-x-3' href={'/Sections/experience-about'}>Experience</Link></li>
