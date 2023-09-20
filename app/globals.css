@@ -167,9 +167,11 @@
     transition:all 0.3s ease-in-out;
     box-shadow:0 0 3px 1px rgba(0,0,0,.3);
     
-    &:nth-child(2) {
-      width:20px;
-    }
+    
+  }
+
+  .bar:nth-child(2) {
+    width:20px;
   }
   
   /*#toggle:checked {
