@@ -199,7 +199,7 @@ export default projectArchive
             color: '#EF1019',
             firstline: `Hired by Sun Fish to create a beautiful website for Sun Fish Restaurant. Built with Next JS, Sun Fish Features Multiple pages including, a landing page, menu, classes, and slide in check out cart.`,
 
-            secondline:`Sun Fish Menu page features, a responsive layout, along with add to cart function that updates instantly as you add more items to your cart. Click on the the cart icon and a slide in check out cart will appear, along with each item you added and the ammount. A remove button was added to easily remove any item out of your cart.`,
+            secondline:`Sun Fish Menu page features a responsive layout, along with add to cart function that updates instantly as you add more items to your cart. Click on the the cart icon and a slide in check out cart will appear, along with each item you added and the amount. A remove button was added to easily remove any item out of your cart.`,
             
             thirdline:`During this build I learned how to apply JavaScript lodgic to add updating check out cart feature. Also deepen my knowledge with TypeScript, and Tailwind CSS.`,
             vid: "/sushi.mp4",

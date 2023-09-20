@@ -20,7 +20,7 @@ const page = () => {
                 <h3 className="  font-medium text-base 2xl:text-xl pb-4 ">Owner/Lead Engineer/Production Director</h3>
                 <p className=" text-sm  w-[90%] 2xl:w-[85%] lg:text-sm 2xl:text-base lg:leading-relaxed  font-sans mb-3   font-normal ">FilmDuo is a video production company. As the owner and producer of the company, I wore many hats and took the lead in serval roles. Lead developer was one of them, as the sole developer, I was task with building out a mordern reponsive design to feature multiple videos and feature to Market the company and for clients to see finished products. </p>
                 <p className=" text-sm  w-[90%] 2xl:w-[85%] lg:text-sm 2xl:text-base lg:leading-relaxed  font-sans mb-3   font-normal ">FilmDUO was built using the latest tech stack such as Next-js, TypeScript and Tailwind. As the sole and lead developer each part of the web application was produce and coded by myself. My goal was to make a responsive design to highlight the video content.</p>
-                <a href={'/resume.pdf' } target='_blank'><h2 className=" text-sm lg:text-sm uppercase px-1 py-3 lg:pt-10 hover:text-red-500 duration-500 hover:underline underline-offset-8 hover:translate-x-3">Resume</h2></a>
+                <a href={'/Resume Updated.pdf'} target='_blank'><h2 className=" text-sm lg:text-sm uppercase px-1 py-3 lg:pt-10 hover:text-red-500 duration-500 hover:underline underline-offset-8 hover:translate-x-3">Resume</h2></a>
               </div>
             </div>
         </section>
@@ -49,3 +49,4 @@ const page = () => {
 }
 
 export default page
+
