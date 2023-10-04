@@ -168,7 +168,7 @@ const projectArchive = [
             [ 'TypeScript'],
             [ 'Sanity'],
         ],
-        Link: 'https://www.instagram.com/filmduo/'
+        Link: 'https://www.filmduo.com/'
         
     },
     
@@ -221,7 +221,7 @@ export default projectArchive
        
         {
             id: 3,
-            Linksite: 'https://www.instagram.com/filmduo/',
+            Linksite: 'https://www.filmduo.com/',
             title: 'FilmDUO',
             color: '#ed9f12',
             firstline: `To kickstart the development process, we chose React as the foundation of the website. React's component-based architecture and efficient rendering allowed us to build a highly responsive and interactive user interface. `,

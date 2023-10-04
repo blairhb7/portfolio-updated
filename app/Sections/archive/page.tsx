@@ -18,7 +18,7 @@ const Archive = () => {
     
     <main  className=" flex flex-col h-full  xl:w-screen ">
     <Nav/>
-      <section className=" py-40 px-10">
+      <section className=" py-16 md:py-40 px-10">
         <h1 className=" text-3xl md:text-7xl font-light uppercase Name  lg:text-[#000000ac] px-5 ">Project Archive</h1>
         <h4 className=" text-xs text-[#000000ac]  uppercase lg:hidden lg:text-[#000000ac] px-5  ">For best experience view on a Desktop</h4>
       </section>
